@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Foodcontextprovider } from './context/foodcontext';
+import { Medicinecontextprovider } from './context/medicinecontext';
+import { Drinkscontextprovider } from './context/drinkscontext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Foodcontextprovider>
+      <Medicinecontextprovider>
+        <Drinkscontextprovider>
+          <App />
+        </Drinkscontextprovider>
+      </Medicinecontextprovider>
+    </Foodcontextprovider>
   </React.StrictMode>
 );
 
