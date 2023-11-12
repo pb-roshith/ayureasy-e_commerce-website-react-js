@@ -8,7 +8,7 @@ const Customerchoice = () => {
     const foods = useContext(Foodcontext)
   return (
     <Container fluid>
-            <p className='display-3'>Customer's Choice</p>
+            <p className='display-6'>Customer's Choice</p>
             <Row>
         {foods.map((i) => {
           if (i.id > 13 && i.id < 20) {

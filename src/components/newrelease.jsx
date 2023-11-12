@@ -8,7 +8,7 @@ const Newrelease = () => {
     const medicine = useContext(Medicinecontext)
   return (
     <Container fluid>
-            <p className='display-3'>Discount Upto 30%</p>
+            <p className='display-6'>Discount Upto 30%</p>
             <Row>
         {medicine.map((i) => {
           if (i.id < 27) {

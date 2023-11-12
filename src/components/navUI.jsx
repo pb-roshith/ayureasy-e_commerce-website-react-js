@@ -13,17 +13,17 @@ function NavUI() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <h1 className="display-4" style={{ color: "#fff" }}><SiIfood/> AyurEase</h1>
+          <h1 className="display-6" style={{ color: "#fff" }}><SiIfood/> AyurEase</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link style={{ color: "#fff" }} href="/">
-              <h2>Home</h2>
+              <h5>Home</h5>
             </Nav.Link>
             <Nav.Link style={{ color: "#fff" }} href="products">
-              <h2>Products</h2>
+              <h5>Products</h5>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -8,17 +8,17 @@ const Contactlayout = () => {
     <>
       <Products></Products>
       <div style={{display:'flex', justifyContent:'center', marginBottom:'50px'}} className="text-center">
-        <div className="" style={{ border:"2px solid #00FF00", width:'50%', borderRadius:'20px'}}>
+        <div className="" style={{ border:"2px solid #00FF00", width:'40%', borderRadius:'20px'}}>
           <NavLink style={{ textDecoration: "none" }} to="foods">
-            <h3>Foods</h3>
+            <h5>Foods</h5>
           </NavLink>
           <hr />
           <NavLink style={{ textDecoration: "none" }} to="drinks">
-            <h3>Drinks</h3>
+            <h5>Drinks</h5>
           </NavLink>
           <hr />
           <NavLink style={{ textDecoration: "none" }} to="medicine">
-            <h3>Medicine</h3>
+            <h5>Medicine</h5>
           </NavLink>
         </div>
       </div>

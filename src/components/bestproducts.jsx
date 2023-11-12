@@ -8,7 +8,7 @@ const Bestproducts = () => {
     const medicine = useContext(Medicinecontext)
   return (
     <Container fluid>
-            <p className='display-3'>Best Products</p>
+            <p className='display-6'>Best Products</p>
             <Row>
         {medicine.map((i) => {
           if (i.id > 28 && i.id < 35) {

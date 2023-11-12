@@ -8,7 +8,7 @@ const Recommend = () => {
     const foods = useContext(Foodcontext)
   return (
     <Container fluid>
-      <p className="display-3">Recommended For You</p>
+      <p className="display-6">Recommended For You</p>
       <Row>
         {foods.map((i) => {
           if (i.id > 8 && i.id <15) {

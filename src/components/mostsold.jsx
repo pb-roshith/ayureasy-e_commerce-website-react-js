@@ -8,7 +8,7 @@ const Mostsold = () => {
     const drinks = useContext(Drinkscontext)
   return (
     <Container fluid>
-            <p className='display-3'>Most Sold</p>
+            <p className='display-6'>Most Sold</p>
             <Row>
         {drinks.map((i) => {
           if (i.id < 42) {

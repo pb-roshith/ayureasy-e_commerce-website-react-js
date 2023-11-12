@@ -8,7 +8,7 @@ const Topdeals = () => {
   const foods = useContext(Foodcontext);
   return (
     <Container fluid>
-      <p className="display-3">Top Deals</p>
+      <p className="display-6">Top Deals</p>
       <Row>
         {foods.map((i) => {
           if (i.id < 7) {

@@ -19,7 +19,6 @@ const Home = () => {
       <Botlink></Botlink>
       <Topdeals></Topdeals>
       <Recommend></Recommend>
-      <Poster im={'https://res.cloudinary.com/dlnrtg1q3/image/upload/v1699699513/ayurveda/WhatsApp_Image_2023-11-11_at_3.15.56_PM_vv3sud.jpg'}></Poster>
       <Newrelease></Newrelease>
       <Mostsold></Mostsold>
       <Poster im={'https://res.cloudinary.com/dlnrtg1q3/image/upload/v1699699657/ayurveda/WhatsApp_Image_2023-11-11_at_3.17.42_PM_nbbjnm.jpg'}></Poster>
