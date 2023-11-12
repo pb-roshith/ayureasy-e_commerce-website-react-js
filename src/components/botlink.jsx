@@ -6,7 +6,7 @@ import {BsArrowUpRightSquare} from 'react-icons/bs'
 const Botlink = () => {
   return (
     <>
-        <div style={{backgroundColor:'#00FF00', marginBottom:'50px', marginTop:'110px'}}>
+        <div style={{backgroundColor:'#00FF00', marginBottom:'50px', marginTop:'40px'}}>
             <p style={{color:'#fff'}} className='display-6 text-center'>TRY OUR CHATBOT</p>
             <p style={{color:'#fff'}} className='text-center lead'>for suggestions and recommendation</p>
            <Container>

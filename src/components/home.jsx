@@ -10,12 +10,14 @@ import Favourite from './favourite'
 import Customerchoice from './customerchoice'
 import Bestproducts from './bestproducts'
 import Poster from './poster'
+import Sixproducts from './sixproducts'
 
 const Home = () => {
   return (
     <>
       <Slide></Slide>
       <Bankdiscount></Bankdiscount>
+      <Sixproducts></Sixproducts>
       <Botlink></Botlink>
       <Topdeals></Topdeals>
       <Recommend></Recommend>
