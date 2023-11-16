@@ -12,7 +12,7 @@ const Botlink = () => {
            <Container>
             <p style={{color:'#fff'}} className='text-center'>An Ayurvedic chatbot for symptom matching and recommend appropriate Ayurvedic medicines, along with AI-generated short descriptions.</p>
             <div style={{padding:'30px'}} className='text-center'>
-            <Button size="lg" variant="outline-success">TRY OUT <sup><BsArrowUpRightSquare /></sup></Button>
+            <Button href='https://huggingface.co/spaces/roshithindia/ayureasybot' size="lg" variant="outline-success">TRY OUT <sup><BsArrowUpRightSquare /></sup></Button>
             </div>
             </Container>       
         </div>
